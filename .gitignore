@@ -1,0 +1,18 @@
+# 署名鍵は絶対にコミットしない
+debug.keystore
+*.keystore
+
+# ビルド生成物
+out/
+classes/
+dex/
+gen/
+*.apk
+*.idsig
+source.zip
+
+# アイコンPNGのバックアップ（ベクターXMLが正）
+ic_launcher_png_backup.png
+
+# GitHubスナップショット同期記録
+*.muse-github-snapshot-sync.json
